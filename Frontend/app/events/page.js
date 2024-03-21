@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
+import listPlugin from '@fullcalendar/list'
 import interactionPlugin from "@fullcalendar/interaction";
 import Sidenav from "../../components/Sidenav";
 import EventModel from "../../components/EventModel";
@@ -23,7 +24,7 @@ const EventsPage = () => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
     };
-    if (typeof window !== 'undefined') { // Check if window object exists (for client-side rendering)
+    if (typeof window !== 'undefined') { 
       setWindowWidth(window.innerWidth);
       window.addEventListener('resize', handleResize);
     }
@@ -123,14 +124,14 @@ const EventsPage = () => {
           style={{ height: "calc(100vh - 4rem)" }}
         >
           <div className="flex justify-center lg:m-0 lg:mt-10">
-            <div className="w-full lg:w-3/4 p-2 lg:p-0 calendar-container ">
+            <div className="w-full lg:w-3/4 lg:p-0 calendar-container ">
               <FullCalendar
-                plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
+                plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin, listPlugin ]}
                 initialView="dayGridMonth"
                 headerToolbar={{
-                  left: "today prev,next",
+                  left: "prev,next",
                   center: "title",
-                  right: "dayGridMonth,timeGridWeek,timeGridDay",
+                  right: "dayGridMonth,timeGridWeek,timeGridDay,listMonth",
                 }}
                 aspectRatio = {aspectRatio()}
                 dateClick={handleDateClick}
