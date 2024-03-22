@@ -60,37 +60,33 @@ const Footer = () => {
             <p className="text-lg md:text-xl font-bold mb-4">Links</p>
             <ul className="text-sm md:text-base">
               <li>
-                <a href="#" className="text-gray-500 block mb-2">
+                <a href="/" className="text-gray-500 block mb-2">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-500 block mb-2">
+                <a href="/events" className="text-gray-500 block mb-2">
                   Events
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-500 block mb-2">
+                <a href="#sigs" className="text-gray-500 block mb-2">
                   SIGs
                 </a>
               </li>
+              
               <li>
-                <a href="#" className="text-gray-500 block mb-2">
-                  SMP
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-500 block mb-2">
+                <a href="#team" className="text-gray-500 block mb-2">
                   Team
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-500 block mb-2">
+                <a href="" className="text-gray-500 block mb-2">
                   Blog
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-500 block">
+                <a href="" className="text-gray-500 block">
                   Bored?
                 </a>
               </li>

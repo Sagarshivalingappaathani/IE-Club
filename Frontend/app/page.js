@@ -39,9 +39,9 @@ const Home = () => {
     <>
       {isClient && (
         <div>
-          <div data-aos="fade-up">
+          
             <Navbar />
-          </div>
+          
           <div data-aos="fade-up">
             <Hero />
           </div>

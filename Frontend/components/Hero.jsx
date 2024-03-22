@@ -18,7 +18,7 @@ export default function Component() {
 
   return (
     <>
-      <div className="lg:h-screen h-60">
+      <div className="lg:h-screen h-60 ">
         <Carousel autoplay pauseOnHover leftControl={leftControl} rightControl={rightControl}>
           <img src="/hero3.jpg" alt="..." />
           <img src="/hero4.jpg" alt="..." />

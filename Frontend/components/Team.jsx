@@ -1,6 +1,6 @@
 export default function Team () {
     return (
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div id='team' className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
             <h2 className="mt-10 text-4xl md:text-5xl font-extrabold mb-8 tracking-wide text-teal-600 text-center">
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-teal-600">
