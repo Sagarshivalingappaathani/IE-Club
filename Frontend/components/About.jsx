@@ -25,9 +25,7 @@ const ShuffleHero = () => {
             this exciting journey of growth, discovery, and impact!
           </p>
         </div>
-        <button className="bg-white text-teal-700 hover:bg-teal-100 px-8 py-4 rounded-full transition-transform transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-teal-500">
-          Explore Our Innovations
-        </button>
+        
       </div>
 
       <ShuffleGrid />

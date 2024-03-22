@@ -18,10 +18,10 @@ const Footer = () => {
           <div className="mb-6 mr-5">
            <div className="flex flex-row items-center mb-4">
                 <img src="./club-logo.jpg" className="h-10 mr-4 rounded-md" alt="" />
-                <p className="text-lg md:text-xl font-bold ">Student Club</p>
+                <p className="text-lg md:text-xl font-bold ">IE NITK</p>
            </div>
             <p className="text-sm md:text-base">
-              This is the student club of our college. We are divided by three core Special Interest Groups (SIGs) - Code, Gadget and Garage; but united by five auxiliary SIGs - Vriddhi, our social initiative, Script, our literary SIG, Robotics, Business and Tectonic, our newest SIG for Civil and Architecture.
+              Institution of Engineers, NITK Chapter, is one of the six exclusive club in NIKT. We are divided by three core Special Interest Groups (SIGs) - Code, Gadget and Garage; but united by five auxiliary SIGs - Vriddhi, our social initiative, Script, our literary SIG, Robotics, Business and Tectonic, our newest SIG for Civil and Architecture.
             </p>
           </div>
           <div className="social">
@@ -106,7 +106,7 @@ const Footer = () => {
             </p>
             <p className="text-sm md:text-base flex items-center">
               <FontAwesomeIcon icon={faEnvelope} size="1x" className="mr-2" />
-              studentclub@nitk.edu.in
+              ie@nitk.edu.in
             </p>
           </div>
         </div>
